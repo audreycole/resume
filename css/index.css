@@ -1,5 +1,25 @@
+/*Fiddling with email address link----------------------------*/
+/* unvisited link */
+a:link {
+    color: #00008B;
+}
+
+/* visited link */
+a:visited {
+    color: #8A2BE2;
+}
+
+/* mouse over link */
+a:hover {
+    color: #8A2BE2;
+}
+
+/* selected link */
+a:active {
+    color: #8A2BE2;
+}
 body {
-	/*Background color gradient courtesy of ColorZilla: http://www.colorzilla.com/gradient-editor/ */
+	/*Background color gradient courtesy of ColorZilla: http://www.colorzilla.com/gradient-editor/---------------------------------------*/
 	background: #f0f9ff; /* Old browsers */
 	background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(47%,#cbebff), color-stop(100%,#a1dbff)); /* Chrome,Safari4+ */
